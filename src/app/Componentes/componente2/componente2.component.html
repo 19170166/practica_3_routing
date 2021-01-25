@@ -1,0 +1,6 @@
+<p>componente2 works!</p>
+<ul>
+    <li *ngFor = 'let person of lista' (click)='onSelect(person)'
+    [routerLink]="['/Componente3',person.nombre]">{{person.nombre}}</li>
+</ul>
+<p *ngIf='persona'>{{persona.nombre}}</p>
