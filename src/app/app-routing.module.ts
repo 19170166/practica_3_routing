@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'Componente2', component: Componente2Component},
   {path: 'Componente3/:nombre', component: Componente3Component},
   {path: 'Componente4', component: Componente4Component},
-  {path: 'Componente5', component: Componente5Component},
+  {path: 'Componente5/:nombre/:apellido', component: Componente5Component},
   {path: '', redirectTo: '/Componente2', pathMatch: 'full'},
   {path: '**', component: Componente6Component}
 ];

@@ -1,0 +1,69 @@
+{
+    "personas": [
+        {
+            "nombre": "angel",
+            "objeto": {
+                "balon": 4,
+                "valla": 0,
+                "bate": 2,
+                "tela": 3,
+                "porteria": 0
+            }
+        }
+    ],
+    "deudores": [
+        {
+            "nombre": "angel",
+            "objeto": {
+                "balon": 0,
+                "valla": 0,
+                "bate": 2,
+                "tela": 3,
+                "porteria": 0
+            }
+        },
+        {
+            "nombre": "angel",
+            "objeto": {
+                "balon": 4,
+                "valla": 0,
+                "bate": 2,
+                "tela": 3,
+                "porteria": 0
+            }
+        }
+    ],
+    "pedidos": [
+        {
+            "nombre": "angel",
+            "bate": "5",
+            "fecha": "2020/01/10"
+        },
+        {
+            "nombre": "angel",
+            "tela": "3",
+            "fecha": "2020/01/13"
+        },
+        {
+            "nombre": "angel",
+            "balon": "4",
+            "fecha": "202/01/16"
+        }
+    ],
+    "entregas": [
+        {
+            "nombre": "angel",
+            "bate": "3",
+            "fecha": "2020/01/15"
+        }
+    ],
+    "inventario": [
+        {
+            "balon": 46,
+            "valla": 50,
+            "porteria": 50,
+            "tela": 47,
+            "bate": 48
+        }
+    ]
+}

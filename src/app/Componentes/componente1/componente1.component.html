@@ -1,11 +1,11 @@
 <nav>
     <div>
         <a routerLink="/Componente2" routerLinkActive="active">Componente 2</a>
-        <a routerLink="/Componente3" routerLinkActive="active">Componente 3</a>
+        <a routerLink="/Componente3" routerLinkActive="active">Componente 3 con parametro string</a>
         <a routerLink="/Componente4" routerLinkActive="active">Componente 4</a>
-        <a routerLink="/Componente5" routerLinkActive="active">Componente 5</a>
+        <a [routerLink]="['/Componente5',pers.nombre,pers.apellido]" 
+        routerLinkActive="active">Componente 5 con json como ruta</a>
     </div>
 </nav>
 <p>componente1 works!</p>
 <router-outlet></router-outlet>
-<app-componente2 class="oculto" (newItemEmitter)='setPersona($event)'></app-componente2>

@@ -7,11 +7,12 @@ import { Router, ActivatedRoute, Params} from '@angular/router';
   styleUrls: ['./componente1.component.css']
 })
 export class Componente1Component implements OnInit {
-  nombre:String;
+
+  pers={
+    nombre: "angel",
+    apellido:"zapata"
+  };
   constructor() { }
-  setPersona(nom:String){
-    this.nombre = nom;
-  }
   ngOnInit(): void {
     
   }
